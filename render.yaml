@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: bybit-top-gainers
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
